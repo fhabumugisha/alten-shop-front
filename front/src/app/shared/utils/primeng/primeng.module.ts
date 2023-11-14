@@ -79,7 +79,9 @@ import {TagModule} from "primeng/tag";
     SidebarModule,
     ColorPickerModule,
     ProgressSpinnerModule,
-    TagModule
+    TagModule,RadioButtonModule
+
+
   ],
   exports: [
     TableModule,
@@ -118,7 +120,7 @@ import {TagModule} from "primeng/tag";
     SidebarModule,
     ColorPickerModule,
     ProgressSpinnerModule,
-    TagModule
+    TagModule,RadioButtonModule
   ],
   providers: [
     DialogService,

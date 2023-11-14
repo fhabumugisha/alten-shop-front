@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {ProductService} from '../product.service';
 import {Product} from '../product.model';
 import {ConfirmationService, MessageService} from 'primeng/api';
-import {Table} from "primeng/table";
+import {Table} from 'primeng/table';
 
 @Component({
   selector: 'app-products-admin',

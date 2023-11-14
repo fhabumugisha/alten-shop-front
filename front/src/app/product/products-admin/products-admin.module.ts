@@ -4,7 +4,6 @@ import { CommonModule } from '@angular/common';
 import { ProductsAdminRoutingModule } from './products-admin-routing.module';
 import { ProductsAdminComponent } from './products-admin.component';
 import {SharedModule} from "../../shared/shared.module";
-import {RadioButtonModule} from "primeng/radiobutton";
 
 
 @NgModule({
@@ -14,7 +13,6 @@ import {RadioButtonModule} from "primeng/radiobutton";
     imports: [
         SharedModule,
         ProductsAdminRoutingModule,
-        RadioButtonModule
     ]
 })
 export class ProductsAdminModule { }
