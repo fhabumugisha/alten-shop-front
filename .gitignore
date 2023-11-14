@@ -7,3 +7,4 @@ front/node_modules/
 .idea
 /.idea/
 /front/.angular/
+/front/dist/
