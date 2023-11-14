@@ -1,0 +1,9 @@
+/front/node_modules/
+front/node_modules/
+
+/dist/
+*.log
+
+.idea
+/.idea/
+/front/.angular/
