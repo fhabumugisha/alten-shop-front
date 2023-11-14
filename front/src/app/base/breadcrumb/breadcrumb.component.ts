@@ -26,7 +26,7 @@ export class BreadcrumbComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.router.events.pipe(      
+    this.router.events.pipe(
       filter(event => event instanceof NavigationEnd),
       map((event: NavigationEnd) => event.url),
       startWith(this.router.url),
@@ -45,6 +45,7 @@ export class BreadcrumbComponent implements OnInit {
         command: () => this.sidenavService.setCurrentEntityName('')
       });
     }
+
   }
 
 }
