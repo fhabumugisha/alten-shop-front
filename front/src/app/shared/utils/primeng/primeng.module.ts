@@ -38,6 +38,7 @@ import { ToastModule } from 'primeng/toast';
 import { ToolbarModule } from 'primeng/toolbar';
 import { TooltipModule } from "primeng/tooltip";
 import {TagModule} from "primeng/tag";
+import {RadioButtonModule} from "primeng/radiobutton";
 
 
 @NgModule({
@@ -79,7 +80,8 @@ import {TagModule} from "primeng/tag";
     SidebarModule,
     ColorPickerModule,
     ProgressSpinnerModule,
-    TagModule,RadioButtonModule
+    TagModule,
+    RadioButtonModule
 
 
   ],
@@ -120,7 +122,8 @@ import {TagModule} from "primeng/tag";
     SidebarModule,
     ColorPickerModule,
     ProgressSpinnerModule,
-    TagModule,RadioButtonModule
+    TagModule,
+    RadioButtonModule
   ],
   providers: [
     DialogService,
