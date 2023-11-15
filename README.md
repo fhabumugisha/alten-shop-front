@@ -69,3 +69,21 @@ Le back-end créé doit pouvoir gérer les produits dans une base de données SQ
 ## Bonus
 
 Vous pouvez ajouter des tests Postman ou Swagger pour valider votre API
+
+
+## Pour tester
+### En local sur un environnement de dev fonctionnel :
+
+### Sans API
+Depuis alten-shop-front-products/front : npm run start-dev
+
+### Avec API (https://github.com/fhabumugisha/alten-shop-springboot-back)
+Depuis alten-shop-front-products/front : npm start
+
+Depuis altern-shop-springboot-back sudo docker-compose start   -d mongobd  &  ./mwnw spring-boot:run
+
+### Avec docker (avec API) :
+
+Depuis alten-shop-front-products/front : docker build -t alten-shop-front . & docker run -p 4200:4200 alten-shop-front
+
+Depuis altern-shop-springboot-back : docker build -t alten-shop-api . & docker-compose up -d
